@@ -1,0 +1,42 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/prbs_rom/sim/prbs_rom.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom27/sim/rom27.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom26/sim/rom26.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom25/sim/rom25.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom24/sim/rom24.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom23/sim/rom23.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom22/sim/rom22.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom21/sim/rom21.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom20/sim/rom20.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom19/sim/rom19.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom18/sim/rom18.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom17/sim/rom17.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom16/sim/rom16.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom15/sim/rom15.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom14/sim/rom14.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom13/sim/rom13.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom12/sim/rom12.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom11/sim/rom11.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom10/sim/rom10.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom9/sim/rom9.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom8/sim/rom8.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom7/sim/rom7.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom6/sim/rom6.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom5/sim/rom5.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom4/sim/rom4.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom3/sim/rom3.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom2/sim/rom2.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom1/sim/rom1.v" \
+
+sv xil_defaultlib  \
+"../../../../../rtl/G_row.sv" \
+"../../../../../rtl/encode.sv" \
+"../../../../../rtl/qc_encoder.sv" \
+"../../../../../sim/tb_qc_encoder.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom27/sim/rom27.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

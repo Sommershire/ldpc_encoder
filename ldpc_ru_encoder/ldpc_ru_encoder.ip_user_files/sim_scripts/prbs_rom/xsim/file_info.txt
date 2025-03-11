@@ -1,0 +1,2 @@
+prbs_rom.v,verilog,xil_defaultlib,../../../../ldpc_ru_encoder.gen/sources_1/ip/prbs_rom/sim/prbs_rom.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

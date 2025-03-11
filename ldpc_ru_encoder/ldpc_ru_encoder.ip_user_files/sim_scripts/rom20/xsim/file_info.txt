@@ -1,0 +1,2 @@
+rom20.v,verilog,xil_defaultlib,../../../../ldpc_ru_encoder.gen/sources_1/ip/rom20/sim/rom20.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

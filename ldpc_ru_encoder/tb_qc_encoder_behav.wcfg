@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_qc_encoder_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_qc_encoder" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="192.880 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,155.381 ns"></ZoomEndTime>
+      <Cursor1Time time="840.416 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="312"></NameColumnWidth>
+      <ValueColumnWidth column_width="295"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="group262" type="group">
+      <obj_property name="label">tb_qc_encoder</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_qc_encoder/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_qc_encoder/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_qc_encoder/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_qc_encoder/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[26:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[26:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_qc_encoder/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[161:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[161:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_qc_encoder/register" type="array">
+         <obj_property name="ElementShortName">register[26:0][161:0]</obj_property>
+         <obj_property name="ObjectShortName">register[26:0][161:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_qc_encoder/addra" type="array">
+         <obj_property name="ElementShortName">addra[4:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group261" type="group">
+      <obj_property name="label">qc_encoder</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_qc_encoder/qc_encoder_inst/valid_dly0" type="logic">
+         <obj_property name="ElementShortName">valid_dly0</obj_property>
+         <obj_property name="ObjectShortName">valid_dly0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_qc_encoder/qc_encoder_inst/valid_encode" type="logic">
+         <obj_property name="ElementShortName">valid_encode</obj_property>
+         <obj_property name="ObjectShortName">valid_encode</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_qc_encoder/qc_encoder_inst/register" type="array">
+         <obj_property name="ElementShortName">register[26:0][161:0]</obj_property>
+         <obj_property name="ObjectShortName">register[26:0][161:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_qc_encoder/qc_encoder_inst/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[26:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[26:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_qc_encoder/qc_encoder_inst/i_data_dly0" type="array">
+         <obj_property name="ElementShortName">i_data_dly0[26:0]</obj_property>
+         <obj_property name="ObjectShortName">i_data_dly0[26:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_qc_encoder/qc_encoder_inst/i_data_dly1" type="array">
+         <obj_property name="ElementShortName">i_data_dly1[26:0]</obj_property>
+         <obj_property name="ObjectShortName">i_data_dly1[26:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1702" type="group">
+      <obj_property name="label">encode</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_qc_encoder/qc_encoder_inst/encode_inst/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_qc_encoder/qc_encoder_inst/encode_inst/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[0:26]</obj_property>
+         <obj_property name="ObjectShortName">data_in[0:26]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_qc_encoder/qc_encoder_inst/encode_inst/r_data" type="array">
+         <obj_property name="ElementShortName">r_data[161:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data[161:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_qc_encoder/qc_encoder_inst/encode_inst/r_data_dly0" type="array">
+         <obj_property name="ElementShortName">r_data_dly0[161:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_dly0[161:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_qc_encoder/qc_encoder_inst/encode_inst/h" type="array">
+         <obj_property name="ElementShortName">h[26:0][161:0]</obj_property>
+         <obj_property name="ObjectShortName">h[26:0][161:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_qc_encoder/qc_encoder_inst/encode_inst/p1" type="array">
+         <obj_property name="ElementShortName">p1[161:0]</obj_property>
+         <obj_property name="ObjectShortName">p1[161:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_qc_encoder/qc_encoder_inst/encode_inst/s" type="array">
+         <obj_property name="ElementShortName">s[5:0][26:0]</obj_property>
+         <obj_property name="ObjectShortName">s[5:0][26:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

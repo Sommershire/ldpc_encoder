@@ -1,0 +1,2 @@
+rom5.v,verilog,xil_defaultlib,../../../../ldpc_ru_encoder.gen/sources_1/ip/rom5/sim/rom5.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
