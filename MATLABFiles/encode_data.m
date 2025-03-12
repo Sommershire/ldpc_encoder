@@ -65,6 +65,14 @@ s = reshape(s, Z, (n-k) / Z);
 p1 = mod(sum(s, 2), 2);
 
 temp = H2 * p1;
+
+temp1 = zeros(162, 1);
+for i = 1: 27
+    p_rep = repmat(p1(i), 162, 1);
+    H2_cur = H2(:, i);
+    temp1 = mod(temp1 + and(p_rep, H2_cur), 2);
+end
+
 temp = reshape(temp, Z, (n-k) / Z);
 
 s_tilde = mod(s + temp, 2);
@@ -79,7 +87,17 @@ end
 
 parity = [p1; p2];
 
-%% H
+%% H2 write
+fid = fopen(['H2matrix.coe'], 'wt');
+fprintf(fid, 'memory_initialization_radix=2;\n');
+fprintf(fid, 'memory_initialization_vector=\n');
+for i = 1: 27
+    for j = 1: 162
+        fprintf(fid, '%d', H2(j, i));
+    end
+end
+
+
 
 %% 
 idx = 1;

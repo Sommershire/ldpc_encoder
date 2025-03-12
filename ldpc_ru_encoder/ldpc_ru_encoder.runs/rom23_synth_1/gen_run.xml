@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="rom23_synth_1" LaunchPart="xc7k420tiffg901-2L" LaunchTime="1741656647">
   <File Type="PA-TCL" Name="rom23.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="rom23_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="rom23_reports.tcl"/>
   <File Type="RDS-RDS" Name="rom23.vds"/>
   <File Type="RDS-UTIL" Name="rom23_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="rom23_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="rom23.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="rom23_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="rom23_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/rom23">
     <File Path="$PSRCDIR/sources_1/ip/rom23/rom23.xci">
       <FileInfo>

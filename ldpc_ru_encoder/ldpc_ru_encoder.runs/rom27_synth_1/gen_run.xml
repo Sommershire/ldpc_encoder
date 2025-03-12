@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="rom27_synth_1" LaunchPart="xc7k420tiffg901-2L" LaunchTime="1741656647">
   <File Type="PA-TCL" Name="rom27.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="rom27_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="rom27_reports.tcl"/>
   <File Type="RDS-RDS" Name="rom27.vds"/>
   <File Type="RDS-UTIL" Name="rom27_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="rom27_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="rom27.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="rom27_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="rom27_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/rom27">
     <File Path="$PSRCDIR/sources_1/ip/rom27/rom27.xci">
       <FileInfo>

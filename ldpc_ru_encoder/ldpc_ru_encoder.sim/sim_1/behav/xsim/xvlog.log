@@ -1,61 +1,7 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/prbs_rom/sim/prbs_rom.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module prbs_rom
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom27/sim/rom27.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom27
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom26/sim/rom26.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom26
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom25/sim/rom25.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom25
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom24/sim/rom24.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom24
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom23/sim/rom23.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom23
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom22/sim/rom22.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom22
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom21/sim/rom21.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom21
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom20/sim/rom20.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom20
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom19/sim/rom19.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom19
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom18/sim/rom18.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom18
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom17/sim/rom17.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom17
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom16/sim/rom16.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom16
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom15/sim/rom15.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom15
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom14/sim/rom14.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom14
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom13/sim/rom13.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom13
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom12/sim/rom12.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom12
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom11/sim/rom11.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom11
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom10/sim/rom10.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom10
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom9/sim/rom9.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom9
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom8/sim/rom8.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom8
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom7/sim/rom7.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom7
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom6/sim/rom6.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom6
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom5/sim/rom5.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom5
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom4/sim/rom4.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom4
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom3/sim/rom3.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom3
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom2/sim/rom2.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom2
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom1/sim/rom1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom1
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Work/Codes/Realtime/encode_ru_wd/rtl/G_row.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module G_row
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Work/Codes/Realtime/encode_ru_wd/rtl/H2_loader.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module H2_loader
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Work/Codes/Realtime/encode_ru_wd/rtl/encode.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module encode
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Work/Codes/Realtime/encode_ru_wd/rtl/qc_encoder.sv" into library xil_defaultlib

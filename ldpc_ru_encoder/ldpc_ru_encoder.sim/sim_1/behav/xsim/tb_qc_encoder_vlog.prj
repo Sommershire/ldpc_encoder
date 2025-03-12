@@ -1,6 +1,7 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
 "../../../../ldpc_ru_encoder.gen/sources_1/ip/prbs_rom/sim/prbs_rom.v" \
+"../../../../ldpc_ru_encoder.gen/sources_1/ip/rom_H2/sim/rom_H2.v" \
 "../../../../ldpc_ru_encoder.gen/sources_1/ip/rom27/sim/rom27.v" \
 "../../../../ldpc_ru_encoder.gen/sources_1/ip/rom26/sim/rom26.v" \
 "../../../../ldpc_ru_encoder.gen/sources_1/ip/rom25/sim/rom25.v" \
@@ -31,6 +32,7 @@ verilog xil_defaultlib  \
 
 sv xil_defaultlib  \
 "../../../../../rtl/G_row.sv" \
+"../../../../../rtl/H2_loader.sv" \
 "../../../../../rtl/encode.sv" \
 "../../../../../rtl/qc_encoder.sv" \
 "../../../../../sim/tb_qc_encoder.sv" \
