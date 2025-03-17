@@ -70,8 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "prbs_rom_synth_1" START { ROLLUP_AUTO }
-set_msg_config -id {HDL 9-1061} -limit 100000
-set_msg_config -id {HDL 9-1654} -limit 100000
 set_msg_config  -id {[BD 41-1306]}  -suppress 
 set_msg_config  -id {[BD 41-1271]}  -suppress 
 set_param project.vivado.isBlockSynthRun true
@@ -92,7 +90,7 @@ set_property ip_output_repo c:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_ip -quiet c:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.srcs/sources_1/ip/prbs_rom/prbs_rom.xci
+read_ip -quiet C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.srcs/sources_1/ip/prbs_rom/prbs_rom.xci
 set_property used_in_implementation false [get_files -all c:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/prbs_rom/prbs_rom_ooc.xdc]
 
 OPTRACE "Adding files" END { }

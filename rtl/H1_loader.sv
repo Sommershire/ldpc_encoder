@@ -5,8 +5,8 @@
 // 
 // Create Date: 2025/03/06
 // Design Name: 
-// Module Name: G_row
-// Project Name: 
+// Module Name: H1_loader
+// Project Name: ldpc_encoder
 // Target Devices: 
 // Tool Versions: 
 // Description: 
@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module G_row (
+module H1_loader (
     input clk,
     input rst,
     input valid,

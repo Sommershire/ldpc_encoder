@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../rtl/fifo/FIFO_async.sv" \
+"../../../../../rtl/fifo/RAM.sv" \
+"../../../../../rtl/fifo/read_empty.sv" \
+"../../../../../rtl/fifo/synchronization.sv" \
+"../../../../../rtl/fifo/write_full.sv" \
+"../../../../../sim/tb_fifo_async.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

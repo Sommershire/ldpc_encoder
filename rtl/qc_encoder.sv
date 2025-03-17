@@ -38,7 +38,7 @@ assign data_encode = data_in;
 // 例化模块
 
 // G读取延时2拍
-G_row G_row_inst (
+H1_loader H1_loader_inst (
     .clk(clk),
     .rst(rst),
     .valid(valid),

@@ -6,12 +6,12 @@ close all;
 n = 648;
 r = 3/4;
 k = n * r;
+n_codeword = 16;
 
 [H, Z, protoH] = buildH(n ,r);
 
-%% Z为一个子矩阵的大小，以该大小为并行路数
-
-serial = prbs(ceil(log2(n)) + 12, k);
+%% Z为一个子矩阵的大小
+serial = prbs(ceil(log2(n)) + 12, k*n_codeword);
 
 %% PRBS data
 
@@ -20,16 +20,16 @@ fid = fopen('PRBS.coe', 'wt');
 fprintf(fid, 'memory_initialization_radix=2;\n');
 fprintf(fid, 'memory_initialization_vector=\n');
 
-for i = 1: Z: length(serial)
-    for j = 1: Z - 1
+for i = 1: 32: length(serial)
+    for j = 1: 32 - 1
         fprintf(fid, '%d', serial(i + j - 1));
     end
-    fprintf(fid, '%d,\n', serial(i + Z - 1));
+    fprintf(fid, '%d,\n', serial(i + 32 - 1));
 end
 
 fclose(fid);
 
-serial1 = reshape(serial, Z, []).';
+serial1 = reshape(serial, 32, []).';
 
 %% write H coe file
 for i = 1: 27

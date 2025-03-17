@@ -5,7 +5,7 @@
 // 
 // Create Date: 2025/03/06
 // Design Name: 
-// Module Name: G_row
+// Module Name: tb_qc_encoder
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -19,9 +19,9 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module tb_qc_encoder ();
-
-parameter T = 20;
+module tb_qc_encoder #(
+    parameter ROM_PERIOD = 6.4;
+)();
 
 logic clk;
 logic rst;
