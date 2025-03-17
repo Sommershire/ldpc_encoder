@@ -4,13 +4,11 @@ Running: C:/Xilinx/2021.1/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto b0d
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 2 for port 'data_in' [C:/Work/Codes/Realtime/encode_ru_wd/rtl/fifo/FIFO_async.sv:69]
-WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 2 for port 'data_out' [C:/Work/Codes/Realtime/encode_ru_wd/rtl/fifo/FIFO_async.sv:70]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.RAM(FIFO_data_size=2)
+Compiling module xil_defaultlib.RAM
 Compiling module xil_defaultlib.write_full
 Compiling module xil_defaultlib.read_empty
 Compiling module xil_defaultlib.synchronization

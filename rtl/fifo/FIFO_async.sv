@@ -38,8 +38,8 @@ module FIFO_async #(
     output [FIFO_data_size-1:0] data_out,
 
     // key signals
-    output empty,
-    output full
+    output wire empty,
+    output wire full
 );
 
     wire [FIFO_addr_size:0] r_pointer_gray_sync;
@@ -53,7 +53,7 @@ module FIFO_async #(
 
 
     RAM #(
-        .FIFO_data_size(FIFO_addr_size),
+        .FIFO_data_size(FIFO_data_size),
         .FIFO_addr_size(FIFO_addr_size)
     ) RAM_inst (
         .clk_w(clk_w),

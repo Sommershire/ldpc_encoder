@@ -51,7 +51,7 @@ module RAM #(
 
     always @ (posedge clk_w or negedge rst_w) begin
         if (!rst_w) begin
-            for (int i=0; i<=FIFO_data_size; i=i+1) begin
+            for (int i=1; i<=FIFO_data_size; i=i+1) begin
                 mem[i] <= {FIFO_data_size{1'b0}};
             end
         end
