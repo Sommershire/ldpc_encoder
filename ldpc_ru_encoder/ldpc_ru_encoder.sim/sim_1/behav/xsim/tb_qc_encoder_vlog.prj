@@ -31,10 +31,11 @@ verilog xil_defaultlib  \
 "../../../../ldpc_ru_encoder.gen/sources_1/ip/rom1/sim/rom1.v" \
 
 sv xil_defaultlib  \
-"../../../../../rtl/G_row.sv" \
+"../../../../../rtl/H1_loader.sv" \
 "../../../../../rtl/H2_loader.sv" \
 "../../../../../rtl/encode.sv" \
 "../../../../../rtl/qc_encoder.sv" \
+"../../../../../rtl/qc_encoder_top.sv" \
 "../../../../../sim/tb_qc_encoder.sv" \
 
 # compile glbl module

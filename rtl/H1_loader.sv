@@ -19,11 +19,13 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module G_row (
+module H1_loader #(
+    parameter LDPC_PARITY_SIZE = 162
+)(
     input clk,
     input rst,
     input valid,
-    output reg [161:0] register [26:0],
+    output reg [LDPC_PARITY_SIZE-1:0] register [26:0],
     output reg valid_H
 );
 

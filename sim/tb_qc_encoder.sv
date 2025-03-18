@@ -22,6 +22,10 @@
 module tb_qc_encoder ();
 
 parameter T = 20;
+parameter LDPC_WORD_LENGTH = 648;
+parameter LDPC_PARITY_SIZE = 162;
+parameter LDPC_INFO_LENGTH = 486;
+parameter Z = 27;
 
 logic clk;
 logic rst;
@@ -29,9 +33,7 @@ logic rst;
 logic valid;
 
 logic [26:0] data_in;
-logic [161:0] data_out;
-
-logic [161:0] register [26:0];
+logic [LDPC_WORD_LENGTH-1:0] codeword;
 
 logic [4:0] addra;
 
@@ -75,13 +77,17 @@ always @ (posedge clk or negedge rst) begin
         valid <= 0;
 end
 
-qc_encoder qc_encoder_inst (
+qc_encoder_top #(
+    .LDPC_INFO_LENGTH(LDPC_INFO_LENGTH),
+    .LDPC_PARITY_SIZE(LDPC_PARITY_SIZE),
+    .LDPC_WORD_LENGTH(LDPC_WORD_LENGTH),
+    .Z(Z)
+) qc_encoder_top_inst (
     .clk(clk),
     .rst(rst),
     .valid(valid),
     .data_in(data_in),
-    .data_out(data_out),
-    .register(register)
+    .codeword(codeword)
 );
 
 prbs_rom prbs_rom_inst (
