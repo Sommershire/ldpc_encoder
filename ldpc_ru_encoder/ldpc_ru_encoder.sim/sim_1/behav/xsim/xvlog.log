@@ -56,6 +56,8 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd
 INFO: [VRFC 10-311] analyzing module rom2
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Work/Codes/Realtime/encode_ru_wd/ldpc_ru_encoder/ldpc_ru_encoder.gen/sources_1/ip/rom1/sim/rom1.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module rom1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Work/Codes/Realtime/encode_ru_wd/rtl/FIFO/FIFO_async.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_async
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Work/Codes/Realtime/encode_ru_wd/rtl/H1_loader.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module H1_loader
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Work/Codes/Realtime/encode_ru_wd/rtl/H2_loader.sv" into library xil_defaultlib

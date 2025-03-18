@@ -31,6 +31,7 @@ verilog xil_defaultlib  \
 "../../../../ldpc_ru_encoder.gen/sources_1/ip/rom1/sim/rom1.v" \
 
 sv xil_defaultlib  \
+"../../../../../rtl/FIFO/FIFO_async.sv" \
 "../../../../../rtl/H1_loader.sv" \
 "../../../../../rtl/H2_loader.sv" \
 "../../../../../rtl/encode.sv" \

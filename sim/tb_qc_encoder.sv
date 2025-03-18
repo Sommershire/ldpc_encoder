@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 1ps / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: DC Group
 // Engineer: Di Wu
@@ -22,23 +22,27 @@
 module tb_qc_encoder ();
 
 parameter T = 20;
+parameter T_FIFO = T * 20 / 21;
 parameter LDPC_WORD_LENGTH = 648;
 parameter LDPC_PARITY_SIZE = 162;
 parameter LDPC_INFO_LENGTH = 486;
 parameter Z = 27;
 
-logic clk;
+logic clk, clk_fifo;
 logic rst;
 
 logic valid;
 
 logic [26:0] data_in;
 logic [LDPC_WORD_LENGTH-1:0] codeword;
+logic [31:0] data_out;
+logic valid_converter, valid_0, valid_out;
 
 logic [4:0] addra;
 
 initial begin
     clk = 0;
+    clk_fifo = 0;
     rst = 1;
     #10
     rst = 0;
@@ -47,6 +51,7 @@ initial begin
 end
 
 always #(T/2) clk = ~clk;
+always #(T_FIFO/2) clk_fifo = ~clk_fifo;
 // 计数信号控制
 
 // 内存地址控制
@@ -77,6 +82,11 @@ always @ (posedge clk or negedge rst) begin
         valid <= 0;
 end
 
+assign valid_0 = !valid;
+always @ (posedge clk) begin
+    valid_converter <= valid_0;
+end
+
 qc_encoder_top #(
     .LDPC_INFO_LENGTH(LDPC_INFO_LENGTH),
     .LDPC_PARITY_SIZE(LDPC_PARITY_SIZE),
@@ -94,6 +104,15 @@ prbs_rom prbs_rom_inst (
     .clka(clk),
     .addra(addra),
     .douta(data_in)
+);
+
+FIFO_async FIFO_async_inst (
+    .clk(clk),
+    .rst(rst),
+    .valid_in(valid_converter),
+    .data_in(codeword),
+    .valid_out(valid_out),
+    .data_out(data_out)
 );
 
 endmodule
